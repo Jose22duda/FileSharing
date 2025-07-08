@@ -5,12 +5,12 @@
 This project implements a **peer-to-peer (P2P) file-sharing system** inspired by BitTorrent. It enables decentralized file sharing among multiple peers without relying on a central server for data transfer. The system uses a **hybrid UDP/TCP protocol architecture** for efficient peer discovery and reliable file transfers.  
 
 ###  **Key Features**  
-✅ **Tracker (UDP Server)** – Lightweight coordination for peer discovery and resource listing.  
-✅ **Seeder (TCP Server)** – Hosts complete files and serves chunks to leechers.  
-✅ **Leecher (TCP Client)** – Downloads file chunks in parallel from multiple seeders.  
-✅ **File Integrity Verification** – Uses **SHA-256 hashing** to ensure data correctness.  
-✅ **Parallel Downloads** – Multi-threading for faster file transfers.  
-✅ **User-Friendly GUI** – PyQt5-based interface for easy interaction.  
+ **Tracker (UDP Server)** – Lightweight coordination for peer discovery and resource listing.  
+ **Seeder (TCP Server)** – Hosts complete files and serves chunks to leechers.  
+ **Leecher (TCP Client)** – Downloads file chunks in parallel from multiple seeders.  
+ **File Integrity Verification** – Uses **SHA-256 hashing** to ensure data correctness.  
+ **Parallel Downloads** – Multi-threading for faster file transfers.  
+ **User-Friendly GUI** – PyQt5-based interface for easy interaction.  
 
 ---
 
